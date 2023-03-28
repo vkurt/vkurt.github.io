@@ -6,7 +6,7 @@ p{
 
 img{border: 1px dotted turquoise;
     border-radius: 1.5em;
-    block-size: 12em;
+    block-size: 10em;
     padding: 1.1em;
     margin: 1em;
     width: 25%;
@@ -16,4 +16,7 @@ img{border: 1px dotted turquoise;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+a:link{
+  text-decoration: none;
 }
