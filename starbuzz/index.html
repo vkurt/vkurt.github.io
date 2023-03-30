@@ -7,11 +7,19 @@
   </head> 
 
   <body>
-    <div id="header">
+    <header class="top">
       <img id="headerLogo" src="images/headerLogo.gif" alt="Starbuzz Coffee Logo image">
       <img id="headerSlogan" src="images/headerSlogan.gif" alt="Starbuzz Coffee Slogan image">
-    </div>
-
+    </header>
+    <nav>
+      <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li class="selected"><a href="blog.html">BLOG</a></li>
+      <li><a href="">INVENTIONS</a></li>
+      <LI><A href="">RECIPES</A></LI>
+      <li><a href="">LOCATIONS</a></li>
+      </ul>
+    </nav>
     <div id="award">
       <img src="images/award.gif"
        alt="Roaster of the Year award">
@@ -19,7 +27,7 @@
 
     <div id="tablecontainer">
       <div id="tablerow">
-        <div id="drinks">
+        <section id="drinks">
           <h1>BEVERAGES</h1>
           <p>House Blend, $1.49</p>
           <p>Mocca Cafe Latte, $2.35</p>
@@ -34,8 +42,8 @@
           <p>Cranberry Antioxidant Blast, $2.99</p>
           <p>Chai Chiller, $2.99</p>
           <p>Black Brain Brew, $2.99</p>
-        </div>
-    <div id="main">
+        </section>
+    <section id="main">
       <h1>QUALITY COFFEE, QUALITY CAFFEINE</h1>
       <p>
         At Starbuzz Coffee, we are dedicated to filling all your  caffeine needs through our 
@@ -80,9 +88,9 @@
         <a href="form.html">Bean Machine</a>, and take
         the Starbuzz Coffee experience home.
       </p>
-    </div>
+    </section>
     
-    <div id="sidebar">
+    <aside>
       <p class="beanheading">
         <img src="images/bag.gif" alt="Bean Machine bag">
         <br>
@@ -102,19 +110,22 @@
         enter your order, and behind the scenes, your coffee is roasted, ground 
         (if you want), packaged, and shipped to your door.
       </p>
-    </div>
+    </aside>
   </div>
 </div>
 
+<div id="coupon">
+  <a href="freecoffee.html" title="Click here to get your free coffee">
+    <img src="images/ticket.gif" alt="Starbuzz coupon ticket">
+  </a>
+</div>
 
-    
-
-    <div id="footer">
+    <footer>
       &copy; 2012, Starbuzz Coffee
       <br>
       All trademarks and registered trademarks appearing on 
       this site are the property of their respective owners.
-    </div>
+    </footer>
   
   </body>
 </html>

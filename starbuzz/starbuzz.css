@@ -3,16 +3,37 @@ body {
   font-family:      Georgia, "Times New Roman", Times, serif;
   font-size:        small;
   margin:           0px;
-  align-items: center;
+  
 }
 
-#header {
+header.top {
   background-color: #675c47;
-  margin:           0px 10px 10px 10px;
+  margin:           10px 10px 0px 10px;
   height:           108px;
 }
 
-#main {
+header.top img#headerSlogan {
+	float: right;
+}
+
+div#tableContainer{
+  display: table;
+  border-spacing: 10px;
+}
+
+div#tableRow{
+  display: table-row;
+}
+
+section#drinks{
+  display: table-cell;
+  background-color: #efe5d0;
+  width: 20%;
+  padding: 15px;
+  vertical-align: top;
+}
+
+section#main, section#blog {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
@@ -21,7 +42,7 @@ body {
   
 }
 
-#sidebar {
+aside {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
@@ -30,19 +51,23 @@ body {
    
 }
 
-#footer {
+footer {
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
   padding:          15px;
   margin:           0px 10px 10px 10px;
   font-size:        90%;
-  clear:            left;
+  
 }
 
 h1 {
   font-size:        120%;
   color:            #954b4b;
+}
+
+h2{
+  font-size: 110%;
 }
 
 .slogan { color: #954b4b; }
@@ -64,30 +89,52 @@ a:visited {
 }
 
 
-
-#tablecontainer{
-  display: table;
-  border-spacing: 10px;
-}
-
-#tablerow{
-  display: table-row;
-}
-
-#drinks{
-  display: table-cell;
-  background-color: #efe5d0;
-  width: 20%;
-  padding: 15px;
-  vertical-align: top;
-}
-
-#header img#headerSlogan{
+/*header img#headerSlogan{
   width: auto;
   float: right;
 }
-#award{
+*/
+
+/*#award{
   position: absolute;
   top: 30px;
   left: 45%;
+}
+*/
+/*
+#coupon{
+  position: fixed;
+  top: 350px;
+  left: -90px;
+}
+*/
+/*
+#coupon a, img{
+  border: none;
+}
+*/
+nav{
+  background-color: #efe5d0;
+  margin: 10px 10px 0px 10px;
+}
+nav ul{
+  margin: 0px;
+  list-style-type: none;
+  padding: 5px 0px 5px 5px ;
+}
+
+nav ul li {
+  display: inline;
+  padding: 5px 10px 5px 10px;
+}
+
+nav ul li a:link, nav ul li a:visited{
+  color: #954b4b;
+  border-bottom: none;
+  font-weight: bold;
+
+}
+
+nav ul li.selected{
+  background-color: #c8b99c;
 }
