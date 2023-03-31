@@ -2,8 +2,17 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: azure;
+    background-color: #141815;
     font-size: small;
+    text-shadow: 2px #fcba7a;
+    width: 90%;
+    margin: auto;           
+}
+section{
+    background-color: #060E18;
+    padding: 1em 5em 10em 5em;
+    margin: 5% auto;
+    color: #7AE0D9;
 }
 h1,h2{
     font-family: "Delicious Handrawn",sans-serif;
@@ -11,7 +20,89 @@ h1,h2{
     border-bottom: thin dotted #cc6600;
 }
 
-h1{ font-size: 250%;}
+h1{ font-size: 250%; text-align: center;}
 
-h2{    font-size: 175%; font-weight: normal;}
-blockquote{font-style: italic;}
+h2{    font-size: 175%; font-weight: normal;
+    clear: left;
+}
+blockquote{font-style: italic;
+}
+
+table{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid orange;
+    caption-side: bottom;
+    border-collapse: collapse;
+    
+    
+}
+
+table table th{
+    background-color: #060E18;
+}
+
+td, th {
+    border: thin dotted gray;
+    padding: 5px;
+
+}
+
+th{
+    background-color: #7F430C;
+}
+
+caption{
+    font-style: italic;
+    padding-top: 8px;
+}
+
+/*tr:nth-child(odd){
+    background-color: #4f2a08;
+}
+*/
+.cellcolor{
+    background-color: #4f2a08;
+}
+
+.centerAlign{
+    text-align: center;
+}
+
+.rightAlign{
+    text-align: right;
+}
+img{
+    
+    width: auto;
+    margin: 20px;
+    border: thick ridge #cc6600;
+    border-radius: 5px;
+    float: left;
+     
+}
+
+
+ul li {
+    list-style-image: url(images/backpack.gif);
+    list-style-position: inside;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+aside{
+    clear: both;
+    font-size: 0.90em;
+}
+aside table{
+    padding: 1em;
+    margin: 1em;
+    border:  dotted #cc6600;
+}
+aside table dl dt{
+    font-weight: bold;
+    background-color: #060E18;
+}
+
+
