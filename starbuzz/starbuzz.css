@@ -101,13 +101,19 @@ a:visited {
   left: 45%;
 }
 
-/*
+
 #coupon{
+  transition: 0.5s;
   position: fixed;
   top: 350px;
-  left: -90px;
+  left: -250px;
 }
-*/
+
+#coupon:hover{
+  transform: translateX(200px);
+  
+}
+
 /*
 #coupon a, img{
   border: none;
