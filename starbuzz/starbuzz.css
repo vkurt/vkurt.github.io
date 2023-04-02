@@ -114,11 +114,11 @@ a:visited {
   
 }
 
-/*
+
 #coupon a, img{
   border: none;
 }
-*/
+
 nav{
   background-color: #efe5d0;
   margin: 10px 10px 0px 10px;
@@ -132,6 +132,11 @@ nav ul{
 nav ul li {
   display: inline;
   padding: 5px 10px 5px 10px;
+
+}
+nav ul li:hover {
+  background-color: #b3a17d;
+  
 }
 
 nav ul li a:link, nav ul li a:visited{
@@ -143,4 +148,8 @@ nav ul li a:link, nav ul li a:visited{
 
 nav ul li.selected{
   background-color: #c8b99c;
+}
+
+video{
+  background-color: #675c47;
 }
